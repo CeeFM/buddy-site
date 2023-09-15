@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(211, 208, 251);
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+.intro,
+.games,
+.next-section,
+.final-section {
+    background-color: rgb(225, 225, 225);
+    border-radius: 50px;
+    padding: .5rem 3rem;
+    margin-bottom: .75rem;
+}
+
+ol {
+    text-align: center;
+    list-style-position: inside;
+}
+
+div {
+    transition: ease-in-out .5s;
+}
+
+div:hover {
+    background-color: rgb(0, 19, 233);
+    transform: scale(1.02);
+    color: white;
+}
+
+div p,
+li {
+    transition: ease-in-out .5s;
+}
+
+div p:hover,
+li:hover {
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
